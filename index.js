@@ -1,3 +1,4 @@
-var TokenHandler = require('./lib/TokenHandler');
-var token_handler = new TokenHandler;
-module.exports = token_handler;
+let TokenHandler = require('./lib/TokenHandler');
+let CacheHandler = require('./lib/CacheJwtServices');
+let CacheRefreshHandler = require('./lib/CacheJwtRefreshJob');
+module.exports = {TokenHandler, CacheHandler, CacheRefreshHandler};
