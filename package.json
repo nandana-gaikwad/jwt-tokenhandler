@@ -14,5 +14,7 @@
     "node-schedule": "^1.3.2",
     "aws-sdk": "^2.750.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^26.2.2"
+  }
 }
